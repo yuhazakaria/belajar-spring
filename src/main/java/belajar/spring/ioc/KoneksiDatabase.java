@@ -4,6 +4,11 @@ public class KoneksiDatabase {
 	private String url;
 	private String username;
 	private String password;
+	
+	public void connect() {
+		System.out.println("Connect ke database");
+	}
+	
 	public String getUrl() {
 		return url;
 	}
